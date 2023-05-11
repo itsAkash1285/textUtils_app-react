@@ -50,14 +50,14 @@ function App() {
             {
               <TextForm
                 showAlert={showAlert}
-                heading="Enter The Text To Analyze Below"
+                heading=" Try TextUtils - Word Counter, Character Counter, Remove Extra Spaces"
                 mode={mode}
               />
             }/>
             
           <Route exact path="/about" element =
             {
-              <About/>
+              <About mode={mode}/>
             }/>
         
         </Routes>

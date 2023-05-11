@@ -28,11 +28,11 @@ export default function Navbar(props) {
                 {props.aboutText} <span className="sr-only">(current)</span>
               </Link>
             </li>
-            <li className="nav-item">
+            {/* <li className="nav-item">
               <Link className="nav-link" to="/">
                 Link
               </Link>
-            </li>
+            </li> */}
           </ul>
           {/* <form className="form-inline my-2 my-lg-0">
             <input
